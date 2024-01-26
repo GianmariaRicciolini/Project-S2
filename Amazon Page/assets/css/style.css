@@ -1,1 +1,117 @@
-/* Your styles here */
+/* GENERAL */
+body {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+/* Backgrounds */
+.darkblue {
+  background-color: #222f3f;
+}
+.bluegray {
+  background-color: #364759;
+}
+
+.notwhite {
+  background-color: #e9edee;
+}
+
+.white {
+  background-color: white;
+}
+
+a {
+  color: white;
+  font-size: 0.8rem;
+}
+/* HEADER */
+
+header {
+  text-align: left;
+  color: white;
+}
+
+nav a {
+  display: inline;
+  padding: 0.4% 1% 0.3% 1%;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.logo {
+  width: 10%;
+  padding: 1% 2%;
+}
+/* MAIN */
+
+main {
+  padding: 2%;
+}
+
+.orange {
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  margin: 2%;
+  padding: 0.5%;
+  font-size: 1rem;
+}
+
+.presents div {
+  background-image: url(../images/bg-image.png);
+  color: white;
+  text-align: center;
+}
+
+.presents div h1 {
+  font-weight: bold;
+  padding: 3% 0;
+}
+
+.presents div p {
+  font-size: 1rem;
+  padding: 1% 0;
+}
+
+.inline {
+  text-align: center;
+}
+
+.inline img {
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 1% 2%;
+}
+
+span {
+  color: #116375;
+  font-weight: bold;
+  padding-left: 1%;
+  font-size: 0.8rem;
+}
+
+.longImg {
+  text-align: center;
+  padding: 2% 0;
+  font-size: 1rem;
+}
+
+.longImg h2 {
+  padding-bottom: 1.5%;
+  padding-top: 0.2%;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}

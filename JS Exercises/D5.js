@@ -164,6 +164,7 @@ console.log(numericArray[i]);
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 const alphabetInNumber = [];
+
 for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "a":
