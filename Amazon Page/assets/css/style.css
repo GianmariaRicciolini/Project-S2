@@ -27,6 +27,8 @@ img {
 a {
   color: white;
   font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
 }
 /* HEADER */
 
@@ -41,24 +43,24 @@ header {
 
 .nav a {
   display: inline;
-  padding: 0 0.8%;
-  font-size: 0.8rem;
+  padding: 0 0.5%;
+  font-size: 0.7rem;
 }
 
 .nav p {
-  padding-left: 1.5%;
-  line-height: 0.6rem;
-  padding-bottom: 0.5%;
+  line-height: 0.6em;
+  padding: 0 0 0.5% 1.5%;
 }
 
 .logo {
-  width: 10%;
+  width: 8.5%;
   padding: 1% 2%;
 }
 /* MAIN */
 
 main {
   padding: 2%;
+  padding-bottom: 0;
 }
 
 .orange {
@@ -67,7 +69,7 @@ main {
   text-align: center;
   margin-bottom: 2%;
   padding: 0.5% 0;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .presents {
@@ -79,15 +81,15 @@ main {
   padding-top: 4%;
   padding-bottom: 2%;
   margin-bottom: 2%;
+  font-size: 1.4rem;
 }
 
 .presents div h1 {
   font-weight: bold;
-  /* padding: 3% 0; */
 }
 
 .presents div p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
@@ -96,15 +98,16 @@ main {
 }
 
 .white h2 {
-  font-size: 1rem;
-  padding: 1% 2.2%;
+  padding: 1.4% 1% 1% 1.5%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
 .inline img {
   width: 23%;
   height: 250px;
   display: inline-block;
-  box-sizing: border-box;
   overflow: hidden;
   object-fit: cover;
   border-radius: 15px;
@@ -112,22 +115,25 @@ main {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-span {
-  color: #116375;
+main a {
+  color: #0d707c;
   font-weight: bold;
-  padding-left: 1%;
-  font-size: 0.8rem;
+  padding-left: 1.5%;
+  font-size: 0.6rem;
+  letter-spacing: 0px;
 }
 
 .longImg {
   text-align: center;
-  padding: 2% 0;
+  padding-top: 2%;
   font-size: 1rem;
 }
 
 .longImg h2 {
   padding-bottom: 2%;
-  padding-top: 0.5%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
 }
 
 /* FOOTER */
@@ -136,11 +142,20 @@ footer {
   text-align: center;
 }
 
+footer .logo {
+  width: 13%;
+}
+
 footer .bluegray {
-  padding: 1%;
-  font-size: 1rem;
+  padding-bottom: 0.7%;
+  line-height: 0.5em;
 }
 
 footer .darkblue {
-  padding: 2%;
+  padding: 4%;
+}
+footer a {
+  text-decoration: underline;
+  font-size: 0.55rem;
+  font-weight: 600;
 }

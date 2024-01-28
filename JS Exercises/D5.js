@@ -101,6 +101,7 @@ cars.push(newObj);
 console.log(cars);
 
 // rimuovo l'ultimo valore di trims da ogni array
+
 cars.forEach((cars) => {
   cars.trims.pop();
 });
